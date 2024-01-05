@@ -3,9 +3,7 @@ layout: page
 title: pfeifferCh's Social Media Links
 ---
 <div class="main">
-  {{ page.iscategorylink }}
-  {{ post.iscategorylink }}
-  {% for post in site.posts %}
+    {% for post in site.posts %}
     {% if page.iscategorylink  or post.iscategorylink  or iscategorylink %}
   <a href="?{{ post.title }}" class="button" target="_self" style="background-color: #637d96 !important;">{{ post.title }}</a>
     {% else %}
