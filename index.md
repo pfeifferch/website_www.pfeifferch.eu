@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Links
+title: pfeifferCh's Social Media Links
 ---
 <div class="main">
 {% if page.iscategorylink == 'true' or post.iscategorylink == 'true' or iscategorylink == 'true' %}
