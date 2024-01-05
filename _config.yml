@@ -9,7 +9,7 @@ description: john's nifty linktreehosted on github pages.
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: https://github.com/pfeifferch.png?size=1200
 
 url: https://zchef2k.github.io/indigo-linkinbio
 permalink: /:title/
