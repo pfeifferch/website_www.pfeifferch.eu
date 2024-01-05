@@ -5,7 +5,7 @@ title: Links
 <div class="main">
 {% if post.category == true %}
   {% for post in site.posts %}
-  <a href="#{{ post.title }}" class="button" target="_self" style="background-color: coral !important;">{{ post.title }}</a>
+  <a href="?{{ post.title }}" class="button" target="_self" style="background-color: coral !important;">{{ post.title }}</a>
   {% endfor %}
 {% else %}
   {% for post in site.posts %}
