@@ -10,4 +10,5 @@ title: Links
   {% for post in site.posts %}
   <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}" class="button" target="_blank">{{ post.title }}</a>
   {% endfor %}
+{% endif %}
 </div>
