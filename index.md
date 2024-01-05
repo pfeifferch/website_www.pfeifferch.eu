@@ -3,7 +3,7 @@ layout: page
 title: Links
 ---
 <div class="main">
-{% if post.iscategorylink == true %}
+{% if page.iscategorylink == true %}
   {% for post in site.posts %}
   <a href="?{{ post.title }}" class="button" target="_self" style="background-color: coral !important;">{{ post.title }}</a>
   {% endfor %}
