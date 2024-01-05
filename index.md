@@ -7,7 +7,6 @@ title: pfeifferCh's Social Media Links
     {% if page.iscategorylink  or post.iscategorylink  or iscategorylink %}
   <a href="?{{ post.title }}" class="button" target="_self" style="background-color: coral !important;">{{ post.title }}</a>
     {% else %}
-  {% for post in site.posts %}
   <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}" class="button" target="_blank">{{ post.title }}</a>
     {% endif %}
   {% endfor %}
