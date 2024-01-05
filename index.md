@@ -9,5 +9,3 @@ title: Links
 
   {% endfor %}
 </div>
-
-Hallo Welt
