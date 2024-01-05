@@ -5,7 +5,7 @@ title: pfeifferCh's Social Media Links
 <div class="main">
     {% for post in site.posts %}
     {% if page.iscategorylink  or post.iscategorylink  or iscategorylink %}
-  <a href="?{{ post.title }}" class="button" target="_self" style="background-color: #637d96 !important;">{{ post.title }}</a>
+  <a href="?{{ post.title }}" class="button" target="_self" style="background-color: {{ post.categorylinkbgcolor | "#637d96" }} !important;">{{ post.title }}</a>
     {% else %}
   <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}" class="button" target="_blank">{{ post.title }}</a>
     {% endif %}
