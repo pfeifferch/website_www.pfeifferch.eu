@@ -2,7 +2,7 @@
 layout: post
 date: 2024-01-05 23:59
 title: 3D
-category: true
+iscategorylink: true
 ---
 
 https://www.pfeifferch.eu/category
