@@ -1,0 +1,9 @@
+<div class="main">
+    {% for post in site.posts %}
+    {% if page.iscategorylink  or post.iscategorylink  or iscategorylink %}
+  <span id="{{ post.title }}"><a href="{{ site.url }}index.html#{{ post.title }}" class="button" target="_self" style="background-color: #{{ post.categorylinkbgcolor | default: "637d96" }} !important;">📂 {{ post.title }}</a></span>
+    {% else %}
+  <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}" class="button" target="_blank">{{ post.title }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
