@@ -1,10 +1,7 @@
 <div class="main">
     {% for post in site.posts %}
     {% if page.iscategorylink  or post.iscategorylink  or iscategorylink %}
-  <span id="{{ post.title }}"><a href="{{ site.url }}/index.html#{{ post.title }}" class="button" target="_self" style="
-  background-color: #{{ post.categorylinkbgcolor | default: "637d96" }} !important; 
-  color: #{{ post.categorylinkcolor | default: "FFF" }} !important; 
-  a:link {color: #{{ post.categorylinkcolor | default: "FFF" }} !important;}">📂 {{ post.title }}</a></span>
+  <span id="{{ post.title }}"><a href="{{ site.url }}/index.html#{{ post.title }}" class="button" target="_self" style="background-color: #{{ post.categorylinkbgcolor | default: "637d96" }} !important; color: #{{ post.categorylinkcolor | default: "FFF" }} !important; a:link {color: #{{ post.categorylinkcolor | default: "FFF" }} !important;}">📂 {{ post.title }}</a></span>
     {% else %}
   <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}"                    class="button" target="_blank" style="background-color: #{{ post.linkbgcolor | default: "000" }} !important; color: #{{ post.linkcolor | default: "617992" }} !important;">{{ post.title }}</a>
     {% endif %}
