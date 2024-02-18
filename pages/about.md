@@ -2,7 +2,7 @@
 title: About
 layout: page
 permalink: /about.html
-picture: /assets/images/MEmoji.jpg
+picture: assets/MEmoji.jpg
 ---
 ![Profile Image]({{ site.url }}/{{ page.picture }})
 
