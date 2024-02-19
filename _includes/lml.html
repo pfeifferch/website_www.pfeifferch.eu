@@ -4,8 +4,10 @@
   <span id="{{ post.title }}"><a href="{{ site.url }}/index.html#{{ post.title }}" class="button" target="_self" style="
       background-color: #{{ post.linkbgcolor | default: "637d96" }} !important;
       color: #{{ post.linkcolor | default: "ffffff" }} !important; 
+      a {color: #{{ post.linkcolor | default: "ffffff" }} !important};
       a:link {color: #{{ post.linkcolor | default: "ffffff" }} !important};
       a:active {color: #{{ post.linkcolor | default: "ffffff" }} !important};
+      a:focus {color: #{{ post.linkcolor | default: "ffffff" }} !important};
       a:hover {color: #{{ post.linkcolor | default: "ffffff" }} !important};
       a:visited {color: #{{ post.linkcolor | default: "ffffff" }} !important};
       }">📂 {{ post.title }}</a></span>
@@ -13,8 +15,10 @@
   <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}"    class="button" target="_blank" style="
       background-color: #{{ post.linkbgcolor | default: "000000" }} !important; 
       color: #{{ post.linkcolor | default: "617992" }} !important; 
+      a {color: #{{ post.linkcolor | default: "617992" }} !important;
       a:link {color: #{{ post.linkcolor | default: "617992" }} !important;
       a:active {color: #{{ post.linkcolor | default: "617992" }} !important;
+      a:focus {color: #{{ post.linkcolor | default: "617992" }} !important;
       a:hover {color: #{{ post.linkcolor | default: "617992" }} !important;
       a:visited {color: #{{ post.linkcolor | default: "617992" }} !important;
       ">{{ post.title }}</a>
