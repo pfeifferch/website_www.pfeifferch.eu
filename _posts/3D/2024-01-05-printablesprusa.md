@@ -6,4 +6,4 @@ iscategorylink: false
 linkbgcolor: "000000"
 linkcolor: "ffffff"
 ---
-https://www.printables.com/@PfeifferCh_1686423
+https://www.printables.com/@PfeifferCh
