@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2024-01-05 00:58
-title: 3D Accessories and consumables Wishlist
+title: Amazon Wishlist: 3D Accessories and consumables
 iscategorylink: false
 linkbgcolor: "000000"
 linkcolor: "ffffff"
