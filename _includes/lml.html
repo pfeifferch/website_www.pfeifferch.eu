@@ -14,7 +14,7 @@
       a:visited {color: #{{ post.linkcolor | default: "ffffff" }} !important};
       }">📂 {{ post.title }}</a></span>
     {% else %}
-  <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}"    class="button" target="{{ post.linkbgcolor | default: "_blank" }}" style="
+  <a href="{{ post.excerpt | remove: '<p>' | remove: '</p>' }}"    class="button" target="{{ post.ahreftarget | default: "_blank" }}" style="
       background-color: #{{ post.linkbgcolor | default: "000000" }} !important; 
       color: #{{ post.linkcolor | default: "617992" }} !important; 
       a {color: #{{ post.linkcolor | default: "617992" }} !important};
