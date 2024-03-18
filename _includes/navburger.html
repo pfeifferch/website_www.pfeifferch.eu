@@ -1,5 +1,5 @@
 <nav role="navigation">
-  <div id="menuToggle">
+  <div id="menuToggle" class="sticky">
     <a href="/"><i class="fas fa-home"></i>Home</a>
   </div>
 </nav>
@@ -7,5 +7,13 @@
 <link rel="stylesheet" href="{% if site.templateserverurl %}{{ site.templateserverurl }}{% else %}https://template.pc-cdn.de{% endif %}/assets/fontawesome/css/all.css">
 
 <style>
+ div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+ }
   
 </style>
