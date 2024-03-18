@@ -1,6 +1,6 @@
 ---
 title: cookie info page
-layout: default
+layout: page
 permalink: /cookieinfo.html
 ---
 {% include cookieinfo.html %}
