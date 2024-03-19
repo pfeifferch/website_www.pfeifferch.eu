@@ -1,6 +1,6 @@
 ---
 title: Test
-layout: page
+layout: test
 permalink: /test.html
 picture: assets/MEmoji.jpg
 ---
