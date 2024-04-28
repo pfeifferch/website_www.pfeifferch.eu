@@ -11,8 +11,8 @@ picture: assets/MEmoji.jpg
 <h2>{{ page.title }}</h2>
 
 <ul class="skill-list">
-	<li></li>
-	<li></li>
+	<li>[Anycubic Kobra 2 Pro](https://amzn.to/3xOkDJ1)</li>
+	<li>[SUNLU S2 Filament Trockner ](https://amzn.to/3wdiA0G)</li>
 	<li></li>
 	<li></li>
 	<li></li>
