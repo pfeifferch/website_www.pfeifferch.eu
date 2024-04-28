@@ -24,4 +24,7 @@ picture: assets/MEmoji.jpg
 <li><a href="https://amzn.to/3wdiA0G">SUNLU S2 Filament Trockner </a></li>
 -->	
 </ul>
-
+> Als Amazon-Partner verdiene ich an qualifizierten Verkäufen
+> Die obigen Links sind Produkte die ich selbst gekauft habe und von denen ich überzeugt bin. 
+> Die Links enthalten eine ID über die ich bei qualifizierten Verkäufen eine Provision von Amazon bekomme. 
+> Für dich als Kunde bleibt der Preis gleich.
