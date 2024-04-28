@@ -11,19 +11,17 @@ picture: assets/MEmoji.jpg
 <h2>{{ page.title }}</h2>
 
 <ul class="skill-list">
-	<li>[Anycubic Kobra 2 Pro](https://amzn.to/3xOkDJ1)</li>
-	<li>[SUNLU S2 Filament Trockner ](https://amzn.to/3wdiA0G)</li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
+	<li><a href="https://amzn.to/3xOkDJ1">Anycubic Kobra 2 Pro</a></li>
+<li><a href="https://amzn.to/3wdiA0G">SUNLU S2 Filament Trockner </a></li>
+	<li><a href="https://amzn.to/44mmzVe">mehrere Govee H5179 WLAN Thermometer Hygrometer zur Überwachung der Luftfeuchtigkeit in den Aufbewahrungsboxen</a></li>
+
+
+ <!--
+        <li><a href="https://amzn.to/3wdiA0G">SUNLU S2 Filament Trockner </a></li>
+	<li><a href="https://amzn.to/3xOkDJ1">Anycubic Kobra 2 Pro</a></li>
+<li><a href="https://amzn.to/3wdiA0G">SUNLU S2 Filament Trockner </a></li>
+	<li><a href="https://amzn.to/3xOkDJ1">Anycubic Kobra 2 Pro</a></li>
+<li><a href="https://amzn.to/3wdiA0G">SUNLU S2 Filament Trockner </a></li>
+-->	
 </ul>
 
