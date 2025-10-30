@@ -9,7 +9,7 @@ description: Linkliste von PfeifferCh
 # if it's an external image, update below for true
 # better with square images
 external-image: true
-picture: https://github.com/pfeifferch.png
+picture: https://www.pfeifferch.eu/assets/images/logo.png
 
 url: https://www.pfeifferch.eu
 permalink: /:title/
